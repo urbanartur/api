@@ -1,5 +1,4 @@
-const { shufflePile } = require("../support/actions");
-const { checkNewDeck, saveDeckId, drawCardsToPile, drawCards, checkCardsInPile, shuffleDeck, drawCardsFromPile } = require("/cypress/support/actions");
+import { checkNewDeck, saveDeckId, drawCardsToPile, drawCards, checkCardsInPile, shuffleDeck, drawCardsFromPile, shufflePile } from "/cypress/support/actions";
 
 const fullDeck = 52;
 const fiveCards = 5;
